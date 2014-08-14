@@ -4,16 +4,22 @@
   $final = $_POST['Final'];
   $mejoramiento = $_POST['Mejoramiento'];
 
+  	//Validacion
 	if($parcial>=0 and $parcial<=100) {
-		echo 'ok';
+		//echo 'ok';
 	}else
 		echo "valor de parcial debe ser entre 0 y 100<br />";
 	if($final>=0 and $final<=100) {
-		echo 'ok';
+		//echo 'ok';
 	}else
 		echo "valor de final debe ser entre 0 y 100<br />";
 	if($mejoramiento>=0 and $mejoramiento<=100) {
-		echo 'ok';
+		//echo 'ok';
 	}else
 		echo "valor de mejormiento debe ser entre 0 y 100<br />";
+	//*************
+	echo 'Nombre: '.$nombre;
+	echo '<br />Parcial: '.$parcial;
+	echo '<br />Final: '.$final;
+	echo '<br />Mejoramiento: '.$mejoramiento;
 ?>
